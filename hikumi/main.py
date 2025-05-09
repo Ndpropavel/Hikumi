@@ -491,7 +491,7 @@ class Hikumi:
             if not (me := await client.get_me()):
                 raise RuntimeError("Attempted to save non-inited session")
 
-            telegram_id = self.tg_id
+            telegram_id = me.id
             client._tg_id = telegram_id
             client.tg_id = telegram_id
             client.hikumi_me = me
