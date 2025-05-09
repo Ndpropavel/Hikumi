@@ -1,1 +1,1 @@
-hikumitl==1.40.2
+hikumitl==1.40.3
